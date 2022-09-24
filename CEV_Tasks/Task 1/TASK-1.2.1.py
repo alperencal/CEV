@@ -1,4 +1,4 @@
-def prime_deneme(num):
+def is_prime(num):
   i = 2
   if (num < 2 ):          
     return 'not a prime number'
@@ -9,5 +9,5 @@ def prime_deneme(num):
         break
       i = i + 1
     return 'prime number'
-for i in range (-1,20): 
-  print("Number "+ str(i) + " " + prime_deneme(i))
+for i in range (-1,21): 
+  print("Number "+ str(i) + " " + is_prime(i))
